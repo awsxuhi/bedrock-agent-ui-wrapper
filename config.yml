@@ -1,0 +1,16 @@
+stack_name: capsule-portfoliocreator-advisor  # Name of your main stack, will be used as stack name and prefix for resources
+
+# ID and Alias of your agent. If left empty - a testing agent will be created, see infra/example_bedrock_agent
+# booking-agent
+# agent_id: T4OHRV29ZV  
+# agent_alias_id: GPF1XLJB8F
+
+# # startup_advisor
+# agent_id: NNFHKS7M9G  
+# agent_alias_id: XFBHCYCIP1
+
+# portfolio creator supervisor agent, supervisor_route
+agent_id: 4OGVC5DMIW
+agent_alias_id: O9LR0TRIMB
+
+deploy_on_fargate: true # Set to false to deploy locally
